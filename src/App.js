@@ -16,9 +16,11 @@ const App = () => {
 
   return (
     <>
-      <h1>Todo List</h1>
-      <AddTodo addTodo={addTodo} />
-      <TodoList todos={todos} deleteTodo={deleteTodo} />
+      <div className="app">
+        <h1>Todo List</h1>
+        <AddTodo addTodo={addTodo} />
+        <TodoList todos={todos} deleteTodo={deleteTodo} />
+      </div>
     </>
   )
 }
